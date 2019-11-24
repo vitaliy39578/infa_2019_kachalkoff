@@ -1,14 +1,9 @@
 from graph import *
 
-penColor(255,0,255)
-penSize(5)
-brushColor("blue")
-rectangle(100, 100, 300, 200)
-brushColor("yellow")
-polygon([(100,100), (200,50),
-         (300,100), (100,100)])
-penColor("white")
-brushColor("green")
-circle(200, 150, 50)
+def draw_the_circle(x, y, (r, g, b), radius)
+	brushColor(r, g, b)
+	circle(x, y, r)
 
+penColor(0, 0, 0)
+draw_the_circle(0, 0, (255, 255, 0), 200)
 run()
